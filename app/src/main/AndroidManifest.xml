@@ -17,21 +17,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".view.CreateAccountActivity"
             android:parentActivityName=".LoginActivity">
 
-            <!-- Linea para soporte a androis menor a Lolipop -->
+            <!-- Linea para soporte a android menor a Lolipop -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LoginActivity" />
         </activity>
+
         <activity
             android:name=".ReferenciaActivity"
             android:label="@string/title_activity_referencia"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".view.ContainerActivity" />
-        <activity android:name=".view.PictureDetailActivity"></activity>
+
+        <activity
+            android:name=".view.PictureDetailActivity"
+            android:parentActivityName=".view.ContainerActivity"
+            >
+
+            <!-- Linea para soporte a android menor a Lolipop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ContainerActivity" />
+
+        </activity>
+
+
     </application>
 
 </manifest>
