@@ -1,0 +1,6 @@
+--2017-01-19 20:15:59--  https://github.com/robbyrussel/oh-my-zsh/raw/master/tools/install.sh
+Resolviendo github.com (github.com)... 192.30.253.113, 192.30.253.112
+Conectando con github.com (github.com)[192.30.253.113]:443... conectado.
+Petición HTTP enviada, esperando respuesta... 404 Not Found
+2017-01-19 20:16:01 ERROR 404: Not Found.
+
