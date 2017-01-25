@@ -57,6 +57,7 @@ public class HomeFragment extends Fragment {
         pictures.add(new Picture("http://www.enjoyart.com/library/landscapes/tuscanlandscapes/large/Tuscan-Bridge--by-Art-Fronckowiak-.jpg","Leidy Alcalá","4 días","0 Me gusta"));
         pictures.add(new Picture("http://www.educationquizzes.com/library/KS3-Geography/river-1-1.jpg","Carolina y Camila Baquero","4 días","200 Me gusta"));
 
+
         return pictures;
     }
 
