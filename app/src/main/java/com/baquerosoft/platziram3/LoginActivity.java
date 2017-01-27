@@ -1,6 +1,7 @@
 package com.baquerosoft.platziram3;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -32,5 +33,11 @@ public class LoginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ContainerActivity.class);
         startActivity(intent);
 
+    }
+
+    protected void goWebSide(View view){
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("http://platzigram.com"));
+        startActivity(intent);
     }
 }

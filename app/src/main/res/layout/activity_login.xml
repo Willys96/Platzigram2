@@ -29,6 +29,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/platzigram"
                 android:layout_centerInParent="true"
+                android:onClick="goWebSide"
                 />
 
         </RelativeLayout>

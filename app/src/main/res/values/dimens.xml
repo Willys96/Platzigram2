@@ -32,4 +32,5 @@
     <dimen name="margintop_usernametoolbarprofile">100dp</dimen>
     <dimen name="limitY_usernametoolbarprofile">-250dp</dimen>
     <dimen name="margintopargety_usernametoolbarprofile">-5dp</dimen>
+    <dimen name="marginhorizontal_card">4dp</dimen>
 </resources>
